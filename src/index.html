@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"
+    integrity="sha512-NQfB/bDaB8kaSXF8E77JjhHG5PM6XVRxvHzkZiwl3ddWCEPBa23T76MuWSwAJdMGJnmQqM0VeY9kFszsrBEFrQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link href="./output.css" rel="stylesheet">
+  <title>EDO</title>
+</head>
+
+<body>
+
+
+  <nav
+    class=" relative flex w-full items-center justify-between py-2  shadow-lg focus:text-gray-700 bg-gray-800 text-gray-200 md:flex-wrap md:justify-start px-3">
+    <div class="max-w-[1400px] mx-auto flex w-full flex-wrap items-center justify-between p-1">
+      <div class="flex items-center gap-4">
+        <img src="https://jbnuu.uz/assets/images/logo.png" alt="logo" class="w-20">
+        <h1 class="text-white  uppercase font-bold">
+          MIRZO ULUG‘BEK NOMIDAGI O‘ZBEKISTON MILLIY UNIVERSITETI JIZZAX FILIALI </h1>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container max-w-[1400px] mx-auto relative overflow-x-auto px-3">
+    <table class="w-full text-left rtl:text-right  text-gray-400 rounded-lg overflow-hidden my-10" id="data-table">
+      <thead class="uppercase bg-gray-700 text-gray-300">
+        <tr class="font-bold">
+          <th scope="col" class="px-6 py-3 border"></th>
+          <th scope="col" class="px-6 py-3 border">ФИО</th>
+          <th scope="col" class="px-6 py-3 border">Топшириқлар сони</th>
+          <th scope="col" class="px-6 py-3 border bg-green-500 text-white">Бажарилган</th>
+          <th scope="col" class="px-6 py-3 border bg-blue-500 text-white">Бажарилмоқда</th>
+          <th scope="col" class="px-6 py-3 border bg-red-500 text-white">Бажарилмаган</th>
+        </tr>
+      </thead>
+      <tbody class="bg-gray-50 text-gray-700 font-medium uppercase"></tbody>
+    </table>
+  </div>
+
+
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
